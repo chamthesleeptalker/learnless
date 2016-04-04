@@ -1,4 +1,5 @@
-/*@borderColor:@defaultThemeColor - #222;*/
+/*@borderColor:desaturate(@defaultThemeColor,100%);*/
+/*@borderColor:darken(desaturate(@defaultThemeColor,100%),20%);*/
 .shape {
   display: inline-block;
   width: 200px;
@@ -6,8 +7,11 @@
   background: #ddf;
   margin: 20px;
 }
+.shape:hover {
+  background: #fdd;
+}
 .Border {
-  border: 20px solid #eeeeee;
+  border: 20px solid #bbbbdd;
 }
 .Round {
   -webkit-border-radius: 9999px;
@@ -18,17 +22,17 @@
   -webkit-border-radius: 9999px;
   -moz-border-radius: 9999px;
   border-radius: 9999px;
-  border: 20px solid #eeeeee;
+  border: 20px solid #bbbbdd;
 }
 #shape2 {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  border: 20px solid #eeeeee;
+  border: 20px solid #bbbbdd;
 }
 #shape3 {
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   border-radius: 60px;
-  border: 20px solid #eeeeee;
+  border: 20px solid #bbbbdd;
 }
